@@ -110,7 +110,7 @@ function updateChart() {
 		        ? `Height: ${d.size.metric.height} cm, Weight: ${d.size.metric.weight} kg`
 		        : `Height: ${d.size.imperial.height_ft} ft ${d.size.imperial.height_in} in, Weight: ${d.size.imperial.weight} lbs`;
 
-		    const refInfo = d.ref ? `<br>References:<br>${d.ref.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}` : "";
+		    const refInfo = d.ref ? `<br>References:<br>${d.ref.map(ref => `<a href="${ref.url}" target="_blank">${ref.url}</a> (as of ${ref.date})`).join('<br>')}` : "";
 
 		    const infoText = `<strong>${d.name}</strong><br>Gender: ${d.gender}, Genre: ${d.genre}, ${sizeInfo}${refInfo}`;
 
@@ -143,8 +143,7 @@ document.getElementById("search-btn").addEventListener("click", () => {
             : `Height: ${d.size.imperial.height_ft} ft ${d.size.imperial.height_in} in, Weight: ${d.size.imperial.weight} lbs`;
 
         const refInfo = d.ref 
-            ? `<br>References:<br>${d.ref.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>')}` 
-            : "";
+            ? `<br>References:<br>${d.ref.map(ref => `<a href="${ref.url}" target="_blank">${ref.url}</a> (as of ${ref.date})`).join('<br>')}` : "";
 
         return `<strong>${d.name}</strong><br>Gender: ${d.gender}, Genre: ${d.genre}, ${sizeInfo}${refInfo}`;
     }).join("<br><br>");

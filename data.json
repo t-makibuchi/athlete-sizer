@@ -7,7 +7,12 @@
 			"metric": {"height": 181, "weight": 101},
 			"imperial": {"height_ft": 5, "height_in": 11, "weight": 223}
 		},
-		"ref": ["https://en.wikipedia.org/wiki/Hiroshi_Tanahashi"]
+		"ref": [
+			{
+				"url" : "https://en.wikipedia.org/wiki/Hiroshi_Tanahashi",
+				"date" : "2025/05/12"
+			}
+		]
 	},
 	{
 		"name": "内藤哲也 (Tetsuya Naito)",
@@ -17,8 +22,12 @@
 			"metric": {"height": 180, "weight": 102},
 			"imperial": {"height_ft": 5, "height_in": 11, "weight": 225}
 		},
-		"ref": ["https://en.wikipedia.org/wiki/Tetsuya_Naito"]
-		
+		"ref": [
+			{
+				"url" : "https://en.wikipedia.org/wiki/Tetsuya_Naito",
+				"date" : "2025/05/12"
+			}
+		]
 	},
 	{
 		"name": "鈴木みのる (Minoru Suzuki)",
@@ -28,8 +37,12 @@
 			"metric": {"height": 179, "weight": 102},
 			"imperial": {"height_ft": 5, "height_in": 10, "weight": 225}
 		},
-		"ref": ["https://en.wikipedia.org/wiki/Minoru_Suzuki"]
-		
+		"ref": [
+			{
+				"url" : "https://en.wikipedia.org/wiki/Minoru_Suzuki",
+				"date" : "2025/05/12"
+			}
+		]
 	},
 	{
 		"name": "須﨑優衣 (Yui Susaki)",
@@ -39,7 +52,11 @@
 			"metric": {"height": 153, "weight": 50},
 			"imperial": {"height_ft": 5, "height_in": 0, "weight": 110}
 		},
-		"ref": ["https://en.wikipedia.org/wiki/Yui_Susaki"]
-		
+		"ref": [
+			{
+				"url" : "https://en.wikipedia.org/wiki/Yui_Susaki",
+				"date" : "2025/05/12"
+			}
+		]
 	}
 ]
