@@ -1,0 +1,45 @@
+[
+	{
+		"name": "佐藤太郎",
+		"gender": "male",
+		"genre": "soccer",
+		"size": {
+			"metric": {"height": 173, "weight": 90},
+			"imperial": {"height_ft": 5, "height_in": 8.1, "weight": 198}
+		},
+		"ref": ["https://en.wikipedia.org/wiki/Ichiro_Suzuki", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
+	},
+	{
+		"name": "佐藤花子",
+		"gender": "female",
+		"genre": "tennis",
+		"size": {
+			"metric": {"height": 160, "weight": 55},
+			"imperial": {"height_ft": 5, "height_in": 3, "weight": 121}
+		},
+		"ref": ["https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
+		
+	},
+	{
+		"name": "鈴木一郎",
+		"gender": "male",
+		"genre": "tennis",
+		"size": {
+			"metric": {"height": 180, "weight": 75},
+			"imperial": {"height_ft": 5, "height_in": 10.9, "weight": 165}
+		},
+		"ref": ["https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
+		
+	},
+	{
+		"name": "Тамерлан Таусович Башаев (Tamerlan Bashaev)",
+		"gender": "male",
+		"genre": "tennis",
+		"size": {
+			"metric": {"height": 205, "weight": 175},
+			"imperial": {"height_ft": 6, "height_in": 8.7, "weight": 363}
+		},
+		"ref": ["https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
+		
+	}
+]
