@@ -1,45 +1,45 @@
 [
 	{
-		"name": "佐藤太郎",
+		"name": "棚橋弘至 (Hiroshi Tanahashi)",
 		"gender": "male",
-		"genre": "soccer",
+		"genre": "pro wrestling",
 		"size": {
-			"metric": {"height": 173, "weight": 90},
-			"imperial": {"height_ft": 5, "height_in": 8.1, "weight": 198}
+			"metric": {"height": 181, "weight": 101},
+			"imperial": {"height_ft": 5, "height_in": 11, "weight": 223}
 		},
-		"ref": ["https://en.wikipedia.org/wiki/Ichiro_Suzuki", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
+		"ref": ["https://en.wikipedia.org/wiki/Hiroshi_Tanahashi"]
 	},
 	{
-		"name": "佐藤花子",
+		"name": "内藤哲也 (Tetsuya Naito)",
+		"gender": "male",
+		"genre": "pro wrestling",
+		"size": {
+			"metric": {"height": 180, "weight": 102},
+			"imperial": {"height_ft": 5, "height_in": 11, "weight": 225}
+		},
+		"ref": ["https://en.wikipedia.org/wiki/Tetsuya_Naito"]
+		
+	},
+	{
+		"name": "鈴木みのる (Minoru Suzuki)",
+		"gender": "male",
+		"genre": "tennis",
+		"size": {
+			"metric": {"height": 179, "weight": 102},
+			"imperial": {"height_ft": 5, "height_in": 10, "weight": 225}
+		},
+		"ref": ["https://en.wikipedia.org/wiki/Minoru_Suzuki"]
+		
+	},
+	{
+		"name": "須﨑優衣 (Yui Susaki)",
 		"gender": "female",
-		"genre": "tennis",
+		"genre": "wrestling",
 		"size": {
-			"metric": {"height": 160, "weight": 55},
-			"imperial": {"height_ft": 5, "height_in": 3, "weight": 121}
+			"metric": {"height": 153, "weight": 50},
+			"imperial": {"height_ft": 5, "height_in": 0, "weight": 110}
 		},
-		"ref": ["https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
-		
-	},
-	{
-		"name": "鈴木一郎",
-		"gender": "male",
-		"genre": "tennis",
-		"size": {
-			"metric": {"height": 180, "weight": 75},
-			"imperial": {"height_ft": 5, "height_in": 10.9, "weight": 165}
-		},
-		"ref": ["https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
-		
-	},
-	{
-		"name": "Тамерлан Таусович Башаев (Tamerlan Bashaev)",
-		"gender": "male",
-		"genre": "tennis",
-		"size": {
-			"metric": {"height": 205, "weight": 175},
-			"imperial": {"height_ft": 6, "height_in": 8.7, "weight": 363}
-		},
-		"ref": ["https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC", "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC"]
+		"ref": ["https://en.wikipedia.org/wiki/Yui_Susaki"]
 		
 	}
 ]
