@@ -22,6 +22,7 @@ const genreColors = {
     "pro wrestling": "red",
     "rugby": "brown",
     "soccer": "lime",
+    "sumo": "gold",
     "tennis": "orange",
     "wrestling": "blue"
 };
@@ -41,24 +42,36 @@ function updateChart() {
     const selectedGenre = genreSelect.node().value;
     const selectedUnit = document.querySelector('input[name="unit"]:checked').value;
 
-    // 先にfilteredDataを作成
     filteredData = dataset.filter(d =>
         ((maleChecked && d.gender === "male") || (femaleChecked && d.gender === "female")) &&
         (selectedGenre === "all" || d.genre === selectedGenre)
     );
 
-    // その後、filteredDataを使って軸の範囲を設定
+    const groupedDataMap = new Map();
+    filteredData.forEach(d => {
+        const height = selectedUnit === "metric" ? d.size.metric.height : (d.size.imperial.height_ft + d.size.imperial.height_in / 12);
+        const weight = d.size[selectedUnit].weight;
+        const key = `${height}-${weight}`;
+
+        if (!groupedDataMap.has(key)) {
+            groupedDataMap.set(key, []);
+        }
+        groupedDataMap.get(key).push(d);
+    });
+
+    const groupedData = Array.from(groupedDataMap.entries()).map(([key, persons]) => {
+        const [height, weight] = key.split("-").map(Number);
+        return {height, weight, persons};
+    });
+
     const xDomain = [
-        d3.min(filteredData, d => d.size[selectedUnit].weight) - 5, 
-        d3.max(filteredData, d => d.size[selectedUnit].weight) + 5
+        d3.min(groupedData, d => d.weight) - 5,
+        d3.max(groupedData, d => d.weight) + 5
     ];
 
-    const yDomain = selectedUnit === "metric" ? [
-        d3.min(filteredData, d => d.size.metric.height) - 5, 
-        d3.max(filteredData, d => d.size.metric.height) + 5
-    ] : [
-        d3.min(filteredData, d => d.size.imperial.height_ft + d.size.imperial.height_in / 12) - 0.2,
-        d3.max(filteredData, d => d.size.imperial.height_ft + d.size.imperial.height_in / 12) + 0.2
+    const yDomain = [
+        d3.min(groupedData, d => d.height) - (selectedUnit === "metric" ? 5 : 0.2),
+        d3.max(groupedData, d => d.height) + (selectedUnit === "metric" ? 5 : 0.2)
     ];
 
     const x = d3.scaleLinear().domain(xDomain).range([margin.left, width - margin.right]);
@@ -76,87 +89,70 @@ function updateChart() {
         .attr("transform", `translate(${margin.left},0)`)
         .call(
             d3.axisLeft(y).ticks(10)
-            .tickFormat(d => {
-                if (selectedUnit === "metric") {
-                    return d + "cm";
-                } else {
-                    const ft = Math.floor(d);
-                    const inches = Math.round((d - ft) * 12);
-                    return `${ft}ft ${inches}in`;
-                }
-            })
+                .tickFormat(d => {
+                    if (selectedUnit === "metric") {
+                        return d + "cm";
+                    } else {
+                        const ft = Math.floor(d);
+                        const inches = Math.round((d - ft) * 12);
+                        return `${ft}ft ${inches}in`;
+                    }
+                })
         );
 
     svg.selectAll(".point").remove();
 
-    svg.selectAll(".point")
-	    .data(filteredData)
-	    .enter()
-	    .append("path")
-	    .attr("class", "point")
-	    .attr("transform", d => `translate(${x(d.size[selectedUnit].weight)},${y(selectedUnit === "metric" ? d.size.metric.height : (d.size.imperial.height_ft + d.size.imperial.height_in / 12))})`)
-	    .attr("d", d3.symbol().type(d => d.gender === "male" ? d3.symbolCircle : d3.symbolTriangle).size(100))
-	    .attr("fill", d => genreColors[d.genre])
-		.on("mouseover", function(event, d) {
-		    svg.selectAll(".point")
-		        .attr("d", d3.symbol().type(d => d.gender === "male" ? d3.symbolCircle : d3.symbolTriangle).size(100));
-
-		    d3.select(this)
-		        .attr("d", d3.symbol().type(d.gender === "male" ? d3.symbolCircle : d3.symbolTriangle).size(200));
-
-		    const selectedUnit = document.querySelector('input[name="unit"]:checked').value;
+    groupedData.forEach(d => {
+    const genders = new Set(d.persons.map(p => p.gender));
+    const genres = new Set(d.persons.map(p => p.genre));
+    const baseX = x(d.weight);
+    const baseY = y(d.height);
     
-		    const sizeInfo = selectedUnit === "metric"
-		        ? `Height: ${d.size.metric.height} cm, Weight: ${d.size.metric.weight} kg`
-		        : `Height: ${d.size.imperial.height_ft} ft ${d.size.imperial.height_in} in, Weight: ${d.size.imperial.weight} lbs`;
+    // ジャンルの色を設定（同じならその色、異なれば黒）
+    const color = genres.size === 1 ? genreColors[d.persons[0].genre] : "black";
 
-		    const refInfo = d.ref ? `<br>References:<br>${d.ref.map(ref => `<a href="${ref.url}" target="_blank">${ref.url}</a> (as of ${ref.date})`).join('<br>')}` : "";
+    if (genders.size === 2) {
+        svg.append("path")
+            .attr("class", "point")
+            .attr("transform", `translate(${baseX},${baseY})`)
+            .attr("d", d3.symbol().type(d3.symbolCircle).size(100))
+            .attr("fill", color)
+            .on("mouseover", event => handleMouseOver(event, d));
 
-		    const infoText = `<strong>${d.name}</strong><br>Gender: ${d.gender}, Genre: ${d.genre}, ${sizeInfo}${refInfo}`;
+        svg.append("path")
+            .attr("class", "point")
+            .attr("transform", `translate(${baseX},${baseY})`)
+            .attr("d", d3.symbol().type(d3.symbolDiamond).size(100))
+            .attr("fill", color)
+            .on("mouseover", event => handleMouseOver(event, d));
+    } else {
+        const gender = d.persons[0].gender;
+        const symbolType = gender === "male" ? d3.symbolCircle : d3.symbolDiamond;
 
-		    d3.select("#info").html(infoText);
+        svg.append("path")
+            .attr("class", "point")
+            .attr("transform", `translate(${baseX},${baseY})`)
+            .attr("d", d3.symbol().type(symbolType).size(100))
+            .attr("fill", color)
+            .on("mouseover", event => handleMouseOver(event, d));
+    }
 });
 
-    
-    // const を削除して再代入にする
-	filteredData = dataset.filter(d =>
-    	((maleChecked && d.gender === "male") || (femaleChecked && d.gender === "female")) &&
-    	(selectedGenre === "all" || d.genre === selectedGenre)
-	);
+    function handleMouseOver(event, d) {
+        const infoText = d.persons.map(person => {
+            const sizeInfo = selectedUnit === "metric"
+                ? `Height: ${person.size.metric.height} cm, Weight: ${person.size.metric.weight} kg`
+                : `Height: ${person.size.imperial.height_ft} ft ${person.size.imperial.height_in} in, Weight: ${person.size.imperial.weight} lbs`;
+
+            const refInfo = person.ref ? `<br>References:<br>${person.ref.map(ref => `<a href=\"${ref.url}\" target=\"_blank\">${ref.url}</a> (as of ${ref.date})`).join('<br>')}` : "";
+
+            return `<strong>${person.name}</strong><br>Gender: ${person.gender}, Genre: ${person.genre}, ${sizeInfo}${refInfo}`;
+        }).join("<br><br>");
+
+        d3.select("#info").html(infoText);
+    }
 }
 
-// 検索ボタン処理
-document.getElementById("search-btn").addEventListener("click", () => {
-    const searchText = document.getElementById("search-box").value.toLowerCase();
-
-    if (!searchText) return;
-
-    const selectedUnit = document.querySelector('input[name="unit"]:checked').value;
-
-    const matchedData = filteredData.filter(d => d.name.toLowerCase().includes(searchText));
-
-    if (matchedData.length === 0) return;
-
-    const infoText = matchedData.map(d => {
-        const sizeInfo = selectedUnit === "metric"
-            ? `Height: ${d.size.metric.height} cm, Weight: ${d.size.metric.weight} kg`
-            : `Height: ${d.size.imperial.height_ft} ft ${d.size.imperial.height_in} in, Weight: ${d.size.imperial.weight} lbs`;
-
-        const refInfo = d.ref 
-            ? `<br>References:<br>${d.ref.map(ref => `<a href="${ref.url}" target="_blank">${ref.url}</a> (as of ${ref.date})`).join('<br>')}` : "";
-
-        return `<strong>${d.name}</strong><br>Gender: ${d.gender}, Genre: ${d.genre}, ${sizeInfo}${refInfo}`;
-    }).join("<br><br>");
-
-    d3.select("#info").html(infoText);
-
-    svg.selectAll(".point")
-        .attr("d", d3.symbol().type(d => d.gender === "male" ? d3.symbolCircle : d3.symbolTriangle).size(100));
-
-    svg.selectAll(".point")
-        .filter(d => matchedData.includes(d))
-        .attr("d", d3.symbol().type(d => d.gender === "male" ? d3.symbolCircle : d3.symbolTriangle).size(200));
-});
 
 // テキストボックスでEnterを押した時にも検索を実行
 document.getElementById("search-box").addEventListener("keyup", (event) => {
