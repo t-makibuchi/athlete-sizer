@@ -1,0 +1,39 @@
+body {
+  margin: 1em;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  font-size: 0.9em;
+  color: gray;
+  margin-top: 2em;
+  text-align: left;
+}
+#chart {
+  width: 650px;
+  height: 650px;
+  border: 1px solid black;
+}
+
+#info {
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
