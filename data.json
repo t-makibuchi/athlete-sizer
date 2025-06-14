@@ -1,40 +1,850 @@
 [
-	{
-		"name": "棚橋弘至 (Hiroshi Tanahashi)",
-		"gender": "male",
-		"genre": "pro wrestling",
-		"size": {
-			"metric": {"height": 181, "weight": 101},
-			"imperial": {"height_ft": 5, "height_in": 11, "weight": 223}
-		},
-		"ref": [
-			{
-				"url" : "https://en.wikipedia.org/wiki/Hiroshi_Tanahashi",
-				"date" : "2025/05/12"
-			}
-		]
-	},
-	{
-		"name": "内藤哲也 (Tetsuya Naito)",
-		"gender": "male",
-		"genre": "pro wrestling",
-		"size": {
-			"metric": {"height": 180, "weight": 102},
-			"imperial": {"height_ft": 5, "height_in": 11, "weight": 225}
-		},
-		"ref": [
-			{
-				"url" : "https://en.wikipedia.org/wiki/Tetsuya_Naito",
-				"date" : "2025/05/12"
-			}
-		]
-	},
+	    {
+        "name": "棚橋弘至（Hiroshi Tanahashi）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 181, "weight": 101},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 223} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Hiroshi_Tanahashi",
+                "date" : "2025/05/12"
+            }
+        ]
+    },
+    {
+        "name": "高橋 ヒロム（Hiromu Takahashi））",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 171, "weight": 88},
+            "imperial": {"height_ft": 5, "height_in": 7.5, "weight": 194} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Hiromu_Takahashi",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "オカダ・カズチカ（Kazuchika Okada）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 191, "weight": 107},
+            "imperial": {"height_ft": 6, "height_in": 3, "weight": 236} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kazuchika_Okada",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "鷹木信悟（Shingo Takagi）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 178, "weight": 100},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 220} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Shingo_Takagi",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "SANADA",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 182, "weight": 100},
+            "imperial": {"height_ft": 5, "height_in": 11.5, "weight": 220} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Sanada_(wrestler)",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "石井智宏（Tomohiro Ishii）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 170, "weight": 100},
+            "imperial": {"height_ft": 5, "height_in": 7, "weight": 220} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Tomohiro_Ishii",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "EVIL",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 178, "weight": 106},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 234} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Evil_(wrestler)",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "Zack Sabre Jr.",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 185, "weight": 96},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 211} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Zack_Sabre_Jr.",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "タイチ（Taichi）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 177, "weight": 100},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 220} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Taichi_(wrestler)",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "KENTA",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 174, "weight": 85},
+            "imperial": {"height_ft": 5, "height_in": 9, "weight": 187} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kenta_Kobayashi",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "Will Ospreay",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 185, "weight": 100},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 220} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Will_Ospreay",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "Jay White",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 186, "weight": 101},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 223} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Jay_White",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "グレート-O-カーン（Great-O-Khan）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 188, "weight": 120},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 264} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88-O-%E3%82%AB%E3%83%BC%E3%83%B3",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "海野翔太（Shota Umino）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 103},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 264} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%87%8E%E7%BF%94%E5%A4%AA",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "上村優也（Yuya Uemura）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 180, "weight": 101},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 222} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E4%B8%8A%E6%9D%91%E5%84%AA%E4%B9%9F",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "拳王（Kenoh）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 174, "weight": 95},
+            "imperial": {"height_ft": 5, "height_in": 6, "weight": 209} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kenoh",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "清宮海斗（Kaito Kiyomiya）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 180, "weight": 98},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 216} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kaito_Kiyomiya",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "中嶋勝彦（Katsuhiko Nakajima）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 175, "weight": 87},
+            "imperial": {"height_ft": 5, "height_in": 9, "weight": 192} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Katsuhiko_Nakajima",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "丸藤正道（Naomichi Marufuji）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 176, "weight": 90},
+            "imperial": {"height_ft": 5, "height_in": 9, "weight": 198} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Naomichi_Marufuji",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "杉浦貴（Takashi Sugiura）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 178, "weight": 89},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 196} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Takashi_Sugiura",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "HARASHIMA",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 178, "weight": 90},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 200} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Harashima",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "遠藤哲哉（Tetsuya Endo）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 180, "weight": 80},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 176} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Tetsuya_Endo_(wrestler)",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "竹下幸之介（Konosuke Takeshita）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 187, "weight": 84},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 251} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Konosuke_Takeshita",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "アジャコング（Aja Kong）",
+        "gender": "female",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 165, "weight": 108},
+            "imperial": {"height_ft": 5, "height_in": 5, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%B3%E3%83%B3%E3%82%B0",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "岩谷麻優（Mayu Iwatani）",
+        "gender": "female",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 165, "weight": 50},
+            "imperial": {"height_ft": 5, "height_in": 5, "weight": 110} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Mayu_Iwatani",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "中野たむ（Tam Nakano）",
+        "gender": "female",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 157, "weight": 50},
+            "imperial": {"height_ft": 5, "height_in": 2, "weight": 110} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E4%B8%AD%E9%87%8E%E3%81%9F%E3%82%80",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "スターライト・キッド（Starlight Kid）",
+        "gender": "female",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 150, "weight": 49},
+            "imperial": {"height_ft": 4, "height_in": 11, "weight": 108} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Starlight_Kid",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "ウナギ・サヤカ（Unagi Sayaka）",
+        "gender": "female",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 168, "weight": 54},
+            "imperial": {"height_ft": 5, "height_in": 6, "weight": 119} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Unagi_Sayaka",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "ジャイアント馬場（Giant Baba）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 208, "weight": 141},
+            "imperial": {"height_ft": 6, "height_in": 10, "weight": 310} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Giant_Baba",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "力道山（Rikidōzan）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 175, "weight": 110},
+            "imperial": {"height_ft": 5, "height_in": 9, "weight": 243} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Rikid%C5%8Dzan",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "アントニオ猪木（Antonio Inoki）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 191, "weight": 102},
+            "imperial": {"height_ft": 6, "height_in": 3, "weight": 224} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Antonio_Inoki",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "ジャンボ鶴田（Jumbo Tsuruta）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 196, "weight": 127},
+            "imperial": {"height_ft": 6, "height_in": 5, "weight": 279} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9C%E9%B6%B4%E7%94%B0",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "天龍源一郎（Genichiro Tenryu）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 189, "weight": 120},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 264} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E5%A4%A9%E9%BE%8D%E6%BA%90%E4%B8%80%E9%83%8E",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "長州力（Riki Choshu）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 184, "weight": 120},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 265} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Riki_Choshu",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "藤波辰爾（Tatsumi Fujinami）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 105},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 231} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E8%97%A4%E6%B3%A2%E8%BE%B0%E7%88%BE",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "前田日明（Akira Maeda）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 192, "weight": 115},
+            "imperial": {"height_ft": 6, "height_in": 4, "weight": 253} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E5%89%8D%E7%94%B0%E6%97%A5%E6%98%8E",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "高田延彦（Nobuhiko Takada）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 93},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 205} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E9%AB%99%E7%94%B0%E5%BB%B6%E5%BD%A6",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "橋本真也（Shinya Hashimoto）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 135},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 297} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E6%A9%8B%E6%9C%AC%E7%9C%9F%E4%B9%9F",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "武藤敬司（Keiji Muto）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 188, "weight": 110},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 242} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E6%AD%A6%E8%97%A4%E6%95%AC%E5%8F%B8",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "蝶野正洋（Masahiro Chono）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 186, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E8%9D%B6%E9%87%8E%E6%AD%A3%E6%B4%8B",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "三沢光晴（Mitsuharu Misawa）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 185, "weight": 110},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 242} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Mitsuharu_Misawa",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "川田利明（Toshiaki Kawada）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 105},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 231} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Toshiaki_Kawada",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "小橋建太（Kenta Kobashi）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 186, "weight": 115},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 254} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kenta_Kobashi",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "田上明（Akira Taue）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 192, "weight": 120},
+            "imperial": {"height_ft": 6, "height_in": 3, "weight": 265} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Akira_Taue",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "大仁田厚（Atsushi Onita）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 181, "weight": 99},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 218} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Atsushi_Onita",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "獣神サンダー・ライガー（Jushin Liger）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 170, "weight": 90},
+            "imperial": {"height_ft": 5, "height_in": 7, "weight": 198} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E7%8D%A3%E7%A5%9E%E3%82%B5%E3%83%B3%E3%83%80%E3%83%BC%E3%83%BB%E3%83%A9%E3%82%A4%E3%82%AC%E3%83%BC",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "佐々木健介（Kensuke Sasaki）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 180, "weight": 115},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 115} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kensuke_Sasaki",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "天山広吉（Hiroyoshi Tenzan）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 115},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 254} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Hiroyoshi_Tenzan",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "小島聡（Satoshi Kojima）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Satoshi_Kojima",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "永田裕志（Yuji Nagata）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 183, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Manabu_Nakanishi",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "中西学（Manabu Nakanishi）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 186, "weight": 120},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 265} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Manabu_Nakanishi",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "船木誠勝（Masakatsu Funaki）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 182, "weight": 84},
+            "imperial": {"height_ft": 5, "height_in": 11.5, "weight": 185} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E8%88%B9%E6%9C%A8%E8%AA%A0%E5%8B%9D",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "藤原喜明（Yoshiaki Fujiwara）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 185, "weight": 102},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 225} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Yoshiaki_Fujiwara",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "木戸修（Osamu Kido）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 180, "weight": 105},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 231} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Osamu_Kido",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "坂口征二（Seiji Sakaguchi）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 196, "weight": 125},
+            "imperial": {"height_ft": 6, "height_in": 5, "weight": 276} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Seiji_Sakaguchi",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
+    {
+        "name": "大木金太郎（Kintarō Ōki）",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 185, "weight": 120},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 265} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kintar%C5%8D_%C5%8Cki",
+                "date" : "2025/5/25"
+            }
+        ]
+    },
 	{
 		"name": "鈴木みのる (Minoru Suzuki)",
 		"gender": "male",
-		"genre": "tennis",
+		"genre": "pro wrestling",
 		"size": {
-			"metric": {"height": 179, "weight": 102},
+			"metric": {"height": 178, "weight": 102},
 			"imperial": {"height_ft": 5, "height_in": 10, "weight": 225}
 		},
 		"ref": [
@@ -59,49 +869,919 @@
 			}
 		]
 	},
-	{
-		"name": "aaaa",
-		"gender": "male",
-		"genre": "wrestling",
-		"size": {
-			"metric": {"height": 153, "weight": 50},
-			"imperial": {"height_ft": 5, "height_in": 0, "weight": 110}
-		},
-		"ref": [
-			{
-				"url" : "https://en.wikipedia.org/wiki/Yui_Susaki",
-				"date" : "2025/05/12"
-			}
-		]
-	},
-	{
-		"name": "b",
-		"gender": "male",
-		"genre": "wrestling",
-		"size": {
-			"metric": {"height": 163, "weight": 50},
-			"imperial": {"height_ft": 5, "height_in": 5, "weight": 120}
-		},
-		"ref": [
-			{
-				"url" : "https://en.wikipedia.org/wiki/Yui_Susaki",
-				"date" : "2025/05/12"
-			}
-		]
-	},
-	{
-		"name": "c",
-		"gender": "male",
-		"genre": "pro wrestling",
-		"size": {
-			"metric": {"height": 163, "weight": 50},
-			"imperial": {"height_ft": 5, "height_in": 5, "weight": 120}
-		},
-		"ref": [
-			{
-				"url" : "https://en.wikipedia.org/wiki/Yui_Susaki",
-				"date" : "2025/05/12"
-			}
-		]
-	}
+    {
+        "name": "アレクサンドル・カレリン（Aleksandr Aleksandrovich Karelin）",
+        "gender": "male",
+        "genre": "wrestling",
+        "size": {
+            "metric": {"height": 191, "weight": 130},
+            "imperial": {"height_ft": 6, "height_in": 3, "weight": 286} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Aleksandr_Karelin",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ミハイン・ロペス（Mijaín López Núñez）",
+        "gender": "male",
+        "genre": "wrestling",
+        "size": {
+            "metric": {"height": 196, "weight": 132},
+            "imperial": {"height_ft": 6, "height_in": 5, "weight": 290} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Mija%C3%ADn_L%C3%B3pez",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ゲイブル・スティーブソン（Gable Dan Stevenson）",
+        "gender": "male",
+        "genre": "wrestling",
+        "size": {
+            "metric": {"height": 185, "weight": 120},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 265} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Gable_Steveson",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "吉田沙保里（Saori Yoshida）",
+        "gender": "female",
+        "genre": "wrestling",
+        "size": {
+            "metric": {"height": 157, "weight": 53},
+            "imperial": {"height_ft": 5, "height_in": 2, "weight": 117} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Saori_Yoshida",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ウサイン・ボルト（Usain Bolt）",
+        "gender": "male",
+        "genre": "athletics",
+        "size": {
+            "metric": {"height": 195, "weight": 94},
+            "imperial": {"height_ft": 6, "height_in": 5, "weight": 207} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Usain_Bolt",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "カール・ルイス（Carl Lewis）",
+        "gender": "male",
+        "genre": "athletics",
+        "size": {
+            "metric": {"height": 188, "weight": 80},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 176} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Carl_Lewis",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "セルゲイ・ブブカ（Sergey Bubka）",
+        "gender": "male",
+        "genre": "athletics",
+        "size": {
+            "metric": {"height": 183, "weight": 60},
+            "imperial": {"height_ft": 6, "height_in": 5, "weight": 176} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Sergey_Bubka",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "イチロー（Ichiro Suzuki）",
+        "gender": "male",
+        "genre": "baseball",
+        "size": {
+            "metric": {"height": 180, "weight": 79},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 175} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%81%E3%83%AD%E3%83%BC",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "松井秀喜（Hideki Matsui）",
+        "gender": "male",
+        "genre": "baseball",
+        "size": {
+            "metric": {"height": 188, "weight": 104},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 230} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E7%A7%80%E5%96%9C",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "マイケル・ジョーダン（Michael Jordan）",
+        "gender": "male",
+        "genre": "basketball",
+        "size": {
+            "metric": {"height": 198, "weight": 98},
+            "imperial": {"height_ft": 6, "height_in": 6, "weight": 216} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Michael_Jordan",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "マイク・タイソン（Mike Tyson）",
+        "gender": "male",
+        "genre": "boxing",
+        "size": {
+            "metric": {"height": 178, "weight": 99},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 218} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Mike_Tyson_vs._Michael_Spinks",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "フロイド・メイウェザー・ジュニア（Floyd Mayweather Jr）",
+        "gender": "male",
+        "genre": "boxing",
+        "size": {
+            "metric": {"height": 173, "weight": 66},
+            "imperial": {"height_ft": 5, "height_in": 8, "weight": 146} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Floyd_Mayweather_Jr._vs._Manny_Pacquiao",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ゴードン・ライアン（Gordon Ryan）",
+        "gender": "male",
+        "genre": "Brazilian jiu-jitsu/grappling",
+        "size": {
+            "metric": {"height": 188, "weight": 110},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 240} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Gordon_Ryan",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "中井祐樹（Yuki Nakai）",
+        "gender": "male",
+        "genre": "Brazilian jiu-jitsu/grappling",
+        "size": {
+            "metric": {"height": 170, "weight": 70},
+            "imperial": {"height_ft": 5, "height_in": 6.9, "weight": 154} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Yuki_Nakai",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "湯浅麗歌子（Rikako Yuasa）",
+        "gender": "female",
+        "genre": "Brazilian jiu-jitsu/grappling",
+        "size": {
+            "metric": {"height": 155, "weight": 48},
+            "imperial": {"height_ft": 5, "height_in": 1, "weight": 105} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E6%B9%AF%E6%B5%85%E9%BA%97%E6%AD%8C%E5%AD%90",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ウルフ・アロン（Aaron Wolf）",
+        "gender": "male",
+        "genre": "judo",
+        "size": {
+            "metric": {"height": 181, "weight": 100},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 220} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Aaron_Wolf_(judoka)",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "木村政彦（Masahiko Kimura）",
+        "gender": "male",
+        "genre": "judo",
+        "size": {
+            "metric": {"height": 170, "weight": 84},
+            "imperial": {"height_ft": 5, "height_in": 7, "weight": 185} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Masahiko_Kimura",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "谷亮子（Ryoko Tani）",
+        "gender": "female",
+        "genre": "judo",
+        "size": {
+            "metric": {"height": 146, "weight": 48},
+            "imperial": {"height_ft": 4, "height_in": 9, "weight": 105} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Ryoko_Tani",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "テディ・リネール（Teddy Riner）",
+        "gender": "male",
+        "genre": "judo",
+        "size": {
+            "metric": {"height": 204, "weight": 141},
+            "imperial": {"height_ft": 6, "height_in": 8, "weight": 311} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Teddy_Riner",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "井上 康生（Kōsei Inoue）",
+        "gender": "male",
+        "genre": "judo",
+        "size": {
+            "metric": {"height": 183, "weight": 100},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 220} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/K%C5%8Dsei_Inoue",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "八巻建弐（Kenji Yamaki）",
+        "gender": "male",
+        "genre": "karate",
+        "size": {
+            "metric": {"height": 187, "weight": 102},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 225} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E5%85%AB%E5%B7%BB%E5%BB%BA%E5%BC%90",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "植草 歩（Ayumi Uekusa）",
+        "gender": "female",
+        "genre": "karate",
+        "size": {
+            "metric": {"height": 168, "weight": 68},
+            "imperial": {"height_ft": 5, "height_in": 6, "weight": 150} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Ayumi_Uekusa",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "魔裟斗（Masato）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 174, "weight": 70},
+            "imperial": {"height_ft": 5, "height_in": 8.5, "weight": 154} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Masato_(kickboxer)",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ブアカーオ・ポー.プラムック（Buakaw Banchamek）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 174, "weight": 72},
+            "imperial": {"height_ft": 5, "height_in": 8.5, "weight": 158} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Buakaw_Banchamek",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "アーネスト・ホースト（Ernesto Hoost）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 188, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Ernesto_Hoost",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ピーター・アーツ（Peter Aerts）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 192, "weight": 110},
+            "imperial": {"height_ft": 6, "height_in": 3.5, "weight": 242} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Peter_Aerts",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "バダ・ハリ（Badr Hari）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 198, "weight": 115},
+            "imperial": {"height_ft": 6, "height_in": 6, "weight": 254} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Badr_Hari",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "セミー・シュルト（Semmy Schilt）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 212, "weight": 130},
+            "imperial": {"height_ft": 6, "height_in": 11, "weight": 287} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Semmy_Schilt",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "スーパーボン（Superbon Singha Mawynn）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 177, "weight": 70},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 154} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Superbon_Singha_Mawynn",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ジョルジオ・ペトロシアン（Giorgio Petrosyan）",
+        "gender": "male",
+        "genre": "kickboxing/Muay Thai",
+        "size": {
+            "metric": {"height": 178, "weight": 70},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 154} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Giorgio_Petrosyan",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "稲垣啓太（Keita Inagaki）",
+        "gender": "male",
+        "genre": "rugby",
+        "size": {
+            "metric": {"height": 186, "weight": 116},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 256} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Keita_Inagaki",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "姫野和樹（Kazuki Himeno）",
+        "gender": "male",
+        "genre": "rugby",
+        "size": {
+            "metric": {"height": 187, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Kazuki_Himeno",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ジョナ・ロムー（Jonah Lomu）",
+        "gender": "male",
+        "genre": "rugby",
+        "size": {
+            "metric": {"height": 196, "weight": 125},
+            "imperial": {"height_ft": 6, "height_in": 5, "weight": 276} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Jonah_Lomu",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "マア・ノヌー（Ma'a Nonu）",
+        "gender": "male",
+        "genre": "rugby",
+        "size": {
+            "metric": {"height": 182, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Ma%27a_Nonu",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "アレサナ・トゥイランギ（Alesana Tuilagi）",
+        "gender": "male",
+        "genre": "rugby",
+        "size": {
+            "metric": {"height": 192, "weight": 124},
+            "imperial": {"height_ft": 6, "height_in": 3.5, "weight": 273} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Alesana_Tuilagi",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "オーウェン・ファレル（Owen Farrell）",
+        "gender": "male",
+        "genre": "rugby",
+        "size": {
+            "metric": {"height": 188, "weight": 92},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 203} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Owen_Farrell",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "リオネル・メッシ（Lionel Messi）",
+        "gender": "male",
+        "genre": "soccer",
+        "size": {
+            "metric": {"height": 170, "weight": 72},
+            "imperial": {"height_ft": 5, "height_in": 7, "weight": 158} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%AA%E3%83%8D%E3%83%AB%E3%83%BB%E3%83%A1%E3%83%83%E3%82%B7",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "クリスティアーノ・ロナウド（Cristiano Ronaldo）",
+        "gender": "male",
+        "genre": "soccer",
+        "size": {
+            "metric": {"height": 185, "weight": 85},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 186} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A2%E3%83%BC%E3%83%8E%E3%83%BB%E3%83%AD%E3%83%8A%E3%82%A6%E3%83%89",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ロマーリオ（Romário）",
+        "gender": "male",
+        "genre": "soccer",
+        "size": {
+            "metric": {"height": 167, "weight": 70},
+            "imperial": {"height_ft": 5, "height_in": 5, "weight": 154} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9E%E3%83%BC%E3%83%AA%E3%82%AA",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "カルロス・アルベルト・バルデラマ・パラシオ（Carlos Alberto Valderrama Palacio）",
+        "gender": "male",
+        "genre": "soccer",
+        "size": {
+            "metric": {"height": 179, "weight": 74},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 162} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%83%AD%E3%82%B9%E3%83%BB%E3%83%90%E3%83%AB%E3%83%87%E3%83%A9%E3%83%9E",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "朝青龍明徳（Asashōryū Akinori ）",
+        "gender": "male",
+        "genre": "sumo",
+        "size": {
+            "metric": {"height": 184, "weight": 148},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 326} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Asash%C5%8Dry%C5%AB_Akinori",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "白鵬翔（Hakuhō Shō）",
+        "gender": "male",
+        "genre": "sumo",
+        "size": {
+            "metric": {"height": 192, "weight": 155},
+            "imperial": {"height_ft": 6, "height_in": 4, "weight": 342} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Hakuh%C5%8D_Sh%C5%8D",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "貴乃花光司（Takanohana Kōji）",
+        "gender": "male",
+        "genre": "sumo",
+        "size": {
+            "metric": {"height": 185, "weight": 154},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 340} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Takanohana_K%C5%8Dji",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "若乃花勝（Wakanohana Masaru）",
+        "gender": "male",
+        "genre": "sumo",
+        "size": {
+            "metric": {"height": 180, "weight": 134},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 295} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Wakanohana_Masaru",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "千代の富士貢（Chiyonofuji Mitsugu）",
+        "gender": "male",
+        "genre": "sumo",
+        "size": {
+            "metric": {"height": 183, "weight": 127},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 279} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E5%8D%83%E4%BB%A3%E3%81%AE%E5%AF%8C%E5%A3%AB%E8%B2%A2",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ノバク・ジョコビッチ（Novak Djokovic）",
+        "gender": "male",
+        "genre": "tennis",
+        "size": {
+            "metric": {"height": 188, "weight": 77},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 169} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%90%E3%82%AF%E3%83%BB%E3%82%B8%E3%83%A7%E3%82%B3%E3%83%93%E3%83%83%E3%83%81",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ロジャー・フェデラー（Roger Federer）",
+        "gender": "male",
+        "genre": "tennis",
+        "size": {
+            "metric": {"height": 185, "weight": 85},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 187} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%83%95%E3%82%A7%E3%83%87%E3%83%A9%E3%83%BC",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ラファエル・ナダル（Rafael Nadal）",
+        "gender": "male",
+        "genre": "tennis",
+        "size": {
+            "metric": {"height": 185, "weight": 85},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 187} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%95%E3%82%A1%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%8A%E3%83%80%E3%83%AB",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "アンディ・マリー（Andy Murray）",
+        "gender": "male",
+        "genre": "tennis",
+        "size": {
+            "metric": {"height": 191, "weight": 82},
+            "imperial": {"height_ft": 6, "height_in": 3, "weight": 180} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BB%E3%83%9E%E3%83%AA%E3%83%BC",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "ジョン・マッケンロー（John McEnroe）",
+        "gender": "male",
+        "genre": "tennis",
+        "size": {
+            "metric": {"height": 180, "weight": 75},
+            "imperial": {"height_ft": 5, "height_in": 11, "weight": 165} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%83%E3%82%B1%E3%83%B3%E3%83%AD%E3%83%BC",
+                "date" : "2025/06/08"
+            }
+        ]
+    },
+    {
+        "name": "シモナ・ハレプ（Simona Halep）",
+        "gender": "female",
+        "genre": "tennis",
+        "size": {
+            "metric": {"height": 168, "weight": 60},
+            "imperial": {"height_ft": 5, "height_in": 6, "weight": 132} 
+        },
+        "ref": [
+            {
+                "url" : "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A2%E3%83%8A%E3%83%BB%E3%83%8F%E3%83%AC%E3%83%97",
+                "date" : ""
+            }
+        ]
+    },
+    {
+        "name": "トム・ブレイディ（Tom Brady）",
+        "gender": "male",
+        "genre": "American football",
+        "size": {
+            "metric": {"height": 193, "weight": 102},
+            "imperial": {"height_ft": 6, "height_in": 4, "weight": 225} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Tom_Brady",
+                "date" : ""
+            }
+        ]
+    },
+    {
+        "name": "ペイトン・マニング（Peyton Manning）",
+        "gender": "male",
+        "genre": "American football",
+        "size": {
+            "metric": {"height": 196, "weight": 104},
+            "imperial": {"height_ft": 6, "height_in": 6, "weight": 230} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Peyton_Manning",
+                "date" : ""
+            }
+        ]
+    },
+    {
+        "name": "ジョー・モンタナ（Joe Montana）",
+        "gender": "male",
+        "genre": "American football",
+        "size": {
+            "metric": {"height": 188, "weight": 91},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 200} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Joe_Montana",
+                "date" : ""
+            }
+        ]
+    },
+    {
+        "name": "エメリヤーエンコ・ヒョードル（Fedor Emelianenko）",
+        "gender": "male",
+        "genre": "mma",
+        "size": {
+            "metric": {"height": 183, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 0, "weight": 237} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Fedor_Emelianenko",
+                "date" : "2025/06/09"
+            }
+        ]
+    },
+    {
+        "name": "ケイン・ヴェラスケス（Cain Velasquez）",
+        "gender": "male",
+        "genre": "mma",
+        "size": {
+            "metric": {"height": 185, "weight": 109},
+            "imperial": {"height_ft": 6, "height_in": 1, "weight": 241} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Cain_Velasquez",
+                "date" : "2025/06/09"
+            }
+        ]
+    },
+    {
+        "name": "アンデウソン・シウバ（Anderson Silva）",
+        "gender": "male",
+        "genre": "mma",
+        "size": {
+            "metric": {"height": 188, "weight": 84},
+            "imperial": {"height_ft": 6, "height_in": 2, "weight": 185} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Anderson_Silva",
+                "date" : "2025/06/09"
+            }
+        ]
+    },
+    {
+        "name": "ジョルジュ・サンピエール（Georges St-Pierre）",
+        "gender": "male",
+        "genre": "mma",
+        "size": {
+            "metric": {"height": 178, "weight": 77},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 170} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+                "date" : "2025/06/09"
+            }
+        ]
+    },
+    {
+        "name": "コナー・マクレガー（Conor McGregor）",
+        "gender": "male",
+        "genre": "mma",
+        "size": {
+            "metric": {"height": 173, "weight": 70},
+            "imperial": {"height_ft": 5, "height_in": 8, "weight": 155} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Conor_McGregor",
+                "date" : "2025/06/09"
+            }
+        ]
+    },
+    {
+        "name": "ジョン・ジョーンズ（Jon Jones）",
+        "gender": "male",
+        "genre": "mma",
+        "size": {
+            "metric": {"height": 193, "weight": 108},
+            "imperial": {"height_ft": 6, "height_in": 4, "weight": 238} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Jon_Jones",
+                "date" : "2025/06/09"
+            }
+        ]
+    },
+    {
+        "name": "ジョゼ・アルド（José Aldo）",
+        "gender": "male",
+        "genre": "mma",
+        "size": {
+            "metric": {"height": 170, "weight": 65},
+            "imperial": {"height_ft": 5, "height_in": 7, "weight": 143} 
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo",
+                "date" : "2025/06/09"
+            }
+        ]
+    }
 ]
