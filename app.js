@@ -4,8 +4,8 @@ const height = width;
 const margin = {top: 20, right: 20, bottom: 20, left: 50};
 
 // 点のサイズ設定（通常時と選択時）
-const POINT_SIZE_NORMAL = 50;
-const POINT_SIZE_SELECTED = 200;
+const POINT_SIZE_NORMAL = 20;
+const POINT_SIZE_SELECTED = 100;
 
 const size = Math.min(document.getElementById("chart").clientWidth, 650); // max 650px
 const svg = d3.select("#chart")
