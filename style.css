@@ -17,9 +17,12 @@ footer {
   margin-top: 2em;
   text-align: left;
 }
+
 #chart {
-  width: 650px;
-  height: 650px;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  aspect-ratio: 1 / 1;
   border: 1px solid black;
 }
 
