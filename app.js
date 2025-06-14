@@ -1,15 +1,19 @@
-const width = 600;
-const height = 600;
+const chartElement = document.getElementById("chart");
+const width = chartElement.clientWidth;
+const height = width; 
 const margin = {top: 20, right: 20, bottom: 20, left: 50};
 
 // 点のサイズ設定（通常時と選択時）
 const POINT_SIZE_NORMAL = 50;
 const POINT_SIZE_SELECTED = 200;
 
+const size = Math.min(document.getElementById("chart").clientWidth, 650); // max 650px
 const svg = d3.select("#chart")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+  .append("svg")
+  .attr("viewBox", `0 0 ${width} ${height}`)
+  .attr("preserveAspectRatio", "xMidYMid meet")
+  .style("width", "100%")
+  .style("height", "auto");
 
 let dataset = [];
 let filteredData = [];
