@@ -1,5 +1,5 @@
 [
-	    {
+        {
         "name": "棚橋弘至（Hiroshi Tanahashi）",
         "gender": "male",
         "genre": "pro wrestling",
@@ -15,7 +15,7 @@
         ]
     },
     {
-        "name": "高橋 ヒロム（Hiromu Takahashi））",
+        "name": "高橋 ヒロム（Hiromu Takahashi）",
         "gender": "male",
         "genre": "pro wrestling",
         "size": {
@@ -839,36 +839,36 @@
             }
         ]
     },
-	{
-		"name": "鈴木みのる (Minoru Suzuki)",
-		"gender": "male",
-		"genre": "pro wrestling",
-		"size": {
-			"metric": {"height": 178, "weight": 102},
-			"imperial": {"height_ft": 5, "height_in": 10, "weight": 225}
-		},
-		"ref": [
-			{
-				"url" : "https://en.wikipedia.org/wiki/Minoru_Suzuki",
-				"date" : "2025/05/12"
-			}
-		]
-	},
-	{
-		"name": "須﨑優衣 (Yui Susaki)",
-		"gender": "female",
-		"genre": "wrestling",
-		"size": {
-			"metric": {"height": 153, "weight": 50},
-			"imperial": {"height_ft": 5, "height_in": 0, "weight": 110}
-		},
-		"ref": [
-			{
-				"url" : "https://en.wikipedia.org/wiki/Yui_Susaki",
-				"date" : "2025/05/12"
-			}
-		]
-	},
+    {
+        "name": "鈴木みのる (Minoru Suzuki)",
+        "gender": "male",
+        "genre": "pro wrestling",
+        "size": {
+            "metric": {"height": 178, "weight": 102},
+            "imperial": {"height_ft": 5, "height_in": 10, "weight": 225}
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Minoru_Suzuki",
+                "date" : "2025/05/12"
+            }
+        ]
+    },
+    {
+        "name": "須﨑優衣 (Yui Susaki)",
+        "gender": "female",
+        "genre": "wrestling",
+        "size": {
+            "metric": {"height": 153, "weight": 50},
+            "imperial": {"height_ft": 5, "height_in": 0, "weight": 110}
+        },
+        "ref": [
+            {
+                "url" : "https://en.wikipedia.org/wiki/Yui_Susaki",
+                "date" : "2025/05/12"
+            }
+        ]
+    },
     {
         "name": "Aleksandr Aleksandrovich Karelin",
         "gender": "male",
@@ -1783,5 +1783,313 @@
                 "date" : "2025/06/09"
             }
         ]
+    },
+    {
+        "name":  "Robert Whittaker",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  186,
+                                      "height_in":  0,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  183,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Jared Cannonier",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  11,
+                                      "height_ft":  5
+                                  },
+                     "metric":  {
+                                    "height":  180,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Jared_Cannonier",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Marvin Vettori",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  0,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  183,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Marvin_Vettori",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Israel Adesanya",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  4,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  193,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Israel_Adesanya",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Sean Strickland",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  1,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  185,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Sean_Strickland",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Uriah Hall",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  0,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  183,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Uriah_Hall",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Chris Weidman",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  195,
+                                      "height_in":  2,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  188,
+                                    "weight":  88
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Chris_Weidman",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Vitor Belfort",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  0,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  183,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Vitor_Belfort",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Lyoto Machida",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  1,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  185,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Lyoto_Machida",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Demian Maia",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  170,
+                                      "height_in":  9,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  183,
+                                    "weight":  77
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Demian_Maia",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Luke Rockhold",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  3,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  191,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Luke_Rockhold",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Yoel Romero",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  205,
+                                      "height_in":  10,
+                                      "height_ft":  5
+                                  },
+                     "metric":  {
+                                    "height":  178,
+                                    "weight":  93
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Yoel_Romero",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Kelvin Gastelum\n",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  185,
+                                      "height_in":  9,
+                                      "height_ft":  5
+                                  },
+                     "metric":  {
+                                    "height":  175,
+                                    "weight":  84
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Kelvin_Gastelum",
+                        "date":  "2025/06/23"
+                    }
+                ]
+    },
+    {
+        "name":  "Alex Pereira",
+        "gender":  "male",
+        "genre":  "mma",
+        "size":  {
+                     "imperial":  {
+                                      "weight":  205,
+                                      "height_in":  4,
+                                      "height_ft":  6
+                                  },
+                     "metric":  {
+                                    "height":  193,
+                                    "weight":  93
+                                }
+                 },
+        "ref":  [
+                    {
+                        "url":  "https://en.wikipedia.org/wiki/Alex_Pereira",
+                        "date":  "2025/06/23"
+                    }
+                ]
     }
 ]

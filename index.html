@@ -16,6 +16,18 @@
 </head>
 <body>
 	<div class="title">AthleteSizer</div>
+	<p id="latest-update">
+  		<span class="new-label">NEW</span> : <span id="update-text"></span>
+  		<span class="search-icon" onclick="openModal()">🔍</span>
+	</p>
+
+	<div id="updateModal" class="modal">
+    	<div class="modal-content">
+    		<h3>Update History</h3>
+    		<ul id="update-list"></ul>
+    		<button class="modal-close" onclick="closeModal()">&times;</button>
+		</div>
+	</div>
     <div class="controls">
         Unit:
         metric <input type="radio" name="unit" value="metric" checked>

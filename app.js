@@ -7,7 +7,7 @@ const margin = {top: 20, right: 20, bottom: 20, left: 50};
 const POINT_SIZE_NORMAL = 20;
 const POINT_SIZE_SELECTED = 100;
 
-const size = Math.min(document.getElementById("chart").clientWidth, 650); // max 650px
+const size = Math.min(width, 650); // max 650px
 const svg = d3.select("#chart")
   .append("svg")
   .attr("viewBox", `0 0 ${width} ${height}`)
@@ -17,6 +17,7 @@ const svg = d3.select("#chart")
 
 let dataset = [];
 let filteredData = [];
+let highlightedPoint = null;
 
 const genreColors = {
     "American football": "teal",
@@ -28,7 +29,7 @@ const genreColors = {
     "judo": "green",
     "karate": "olive",
     "kickboxing/Muay Thai": "purple",
-    "mma": "pink",
+    "mma": "crimson",
     "pro wrestling": "red",
     "rugby": "brown",
     "soccer": "lime",
@@ -51,8 +52,6 @@ function updateChart() {
     const femaleChecked = document.getElementById('female').checked;
     const selectedGenre = genreSelect.node().value;
     const selectedUnit = document.querySelector('input[name="unit"]:checked').value;
-
-    let highlightedPoint = null; // 現在強調表示されているポイントを保持する
 
     filteredData = dataset.filter(d =>
         ((maleChecked && d.gender === "male") || (femaleChecked && d.gender === "female")) &&
@@ -278,12 +277,48 @@ document.getElementById("search-btn").addEventListener("click", () => {
         });
 });
 
-d3.json("data.json").then(data => {
-    dataset = data;
-    updateChart();
-});
-
 document.getElementById('male').addEventListener('change', updateChart);
 document.getElementById('female').addEventListener('change', updateChart);
 genreSelect.on('change', updateChart);
 unitRadios.on('change', updateChart);
+
+async function loadUpdates() {
+  try {
+    const response = await fetch('update.json');
+    const updates = await response.json();
+
+    if (updates.length > 0) {
+      const latest = updates[0];
+      document.getElementById('update-text').textContent = `${latest.text} (${latest.date})`;
+    }
+
+    const ul = document.getElementById('update-list');
+    updates.forEach(update => {
+      const li = document.createElement('li');
+      li.textContent = `${update.date} : ${update.text}`;
+      ul.appendChild(li);
+    });
+  } catch (error) {
+    console.error('Failed to load update.json:', error);
+  }
+}
+
+function openModal() {
+  document.getElementById("updateModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("updateModal").style.display = "none";
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  loadUpdates();
+  loadChartData();
+});
+
+function loadChartData() {
+  d3.json("data.json").then(data => {
+    dataset = data;
+    updateChart();
+  });
+}
