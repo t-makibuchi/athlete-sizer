@@ -870,7 +870,7 @@
 		]
 	},
     {
-        "name": "アレクサンドル・カレリン（Aleksandr Aleksandrovich Karelin）",
+        "name": "Aleksandr Aleksandrovich Karelin",
         "gender": "male",
         "genre": "wrestling",
         "size": {
@@ -885,7 +885,7 @@
         ]
     },
     {
-        "name": "ミハイン・ロペス（Mijaín López Núñez）",
+        "name": "Mijaín López Núñez",
         "gender": "male",
         "genre": "wrestling",
         "size": {
@@ -900,7 +900,7 @@
         ]
     },
     {
-        "name": "ゲイブル・スティーブソン（Gable Dan Stevenson）",
+        "name": "Gable Dan Stevenson",
         "gender": "male",
         "genre": "wrestling",
         "size": {
@@ -930,7 +930,7 @@
         ]
     },
     {
-        "name": "ウサイン・ボルト（Usain Bolt）",
+        "name": "Usain Bolt",
         "gender": "male",
         "genre": "athletics",
         "size": {
@@ -945,7 +945,7 @@
         ]
     },
     {
-        "name": "カール・ルイス（Carl Lewis）",
+        "name": "Carl Lewis",
         "gender": "male",
         "genre": "athletics",
         "size": {
@@ -960,7 +960,7 @@
         ]
     },
     {
-        "name": "セルゲイ・ブブカ（Sergey Bubka）",
+        "name": "Sergey Bubka",
         "gender": "male",
         "genre": "athletics",
         "size": {
@@ -1005,7 +1005,7 @@
         ]
     },
     {
-        "name": "マイケル・ジョーダン（Michael Jordan）",
+        "name": "Michael Jordan",
         "gender": "male",
         "genre": "basketball",
         "size": {
@@ -1020,7 +1020,7 @@
         ]
     },
     {
-        "name": "マイク・タイソン（Mike Tyson）",
+        "name": "Mike Tyson",
         "gender": "male",
         "genre": "boxing",
         "size": {
@@ -1035,7 +1035,7 @@
         ]
     },
     {
-        "name": "フロイド・メイウェザー・ジュニア（Floyd Mayweather Jr）",
+        "name": "Floyd Mayweather Jr",
         "gender": "male",
         "genre": "boxing",
         "size": {
@@ -1050,7 +1050,7 @@
         ]
     },
     {
-        "name": "ゴードン・ライアン（Gordon Ryan）",
+        "name": "Gordon Ryan",
         "gender": "male",
         "genre": "Brazilian jiu-jitsu/grappling",
         "size": {
@@ -1140,7 +1140,7 @@
         ]
     },
     {
-        "name": "テディ・リネール（Teddy Riner）",
+        "name": "Teddy Riner",
         "gender": "male",
         "genre": "judo",
         "size": {
@@ -1215,7 +1215,7 @@
         ]
     },
     {
-        "name": "ブアカーオ・ポー.プラムック（Buakaw Banchamek）",
+        "name": "Buakaw Banchamek",
         "gender": "male",
         "genre": "kickboxing/Muay Thai",
         "size": {
@@ -1230,7 +1230,7 @@
         ]
     },
     {
-        "name": "アーネスト・ホースト（Ernesto Hoost）",
+        "name": "Ernesto Hoost",
         "gender": "male",
         "genre": "kickboxing/Muay Thai",
         "size": {
@@ -1245,7 +1245,7 @@
         ]
     },
     {
-        "name": "ピーター・アーツ（Peter Aerts）",
+        "name": "Peter Aerts",
         "gender": "male",
         "genre": "kickboxing/Muay Thai",
         "size": {
@@ -1260,7 +1260,7 @@
         ]
     },
     {
-        "name": "バダ・ハリ（Badr Hari）",
+        "name": "Badr Hari",
         "gender": "male",
         "genre": "kickboxing/Muay Thai",
         "size": {
@@ -1275,7 +1275,7 @@
         ]
     },
     {
-        "name": "セミー・シュルト（Semmy Schilt）",
+        "name": "Semmy Schilt",
         "gender": "male",
         "genre": "kickboxing/Muay Thai",
         "size": {
@@ -1290,7 +1290,7 @@
         ]
     },
     {
-        "name": "スーパーボン（Superbon Singha Mawynn）",
+        "name": "Superbon Singha Mawynn",
         "gender": "male",
         "genre": "kickboxing/Muay Thai",
         "size": {
@@ -1305,7 +1305,7 @@
         ]
     },
     {
-        "name": "ジョルジオ・ペトロシアン（Giorgio Petrosyan）",
+        "name": "Giorgio Petrosyan",
         "gender": "male",
         "genre": "kickboxing/Muay Thai",
         "size": {
@@ -1350,7 +1350,7 @@
         ]
     },
     {
-        "name": "ジョナ・ロムー（Jonah Lomu）",
+        "name": "Jonah Lomu",
         "gender": "male",
         "genre": "rugby",
         "size": {
@@ -1365,7 +1365,7 @@
         ]
     },
     {
-        "name": "マア・ノヌー（Ma'a Nonu）",
+        "name": "Ma'a Nonu",
         "gender": "male",
         "genre": "rugby",
         "size": {
@@ -1380,7 +1380,7 @@
         ]
     },
     {
-        "name": "アレサナ・トゥイランギ（Alesana Tuilagi）",
+        "name": "Alesana Tuilagi",
         "gender": "male",
         "genre": "rugby",
         "size": {
@@ -1395,7 +1395,7 @@
         ]
     },
     {
-        "name": "オーウェン・ファレル（Owen Farrell）",
+        "name": "Owen Farrell",
         "gender": "male",
         "genre": "rugby",
         "size": {
@@ -1410,7 +1410,7 @@
         ]
     },
     {
-        "name": "リオネル・メッシ（Lionel Messi）",
+        "name": "Lionel Messi",
         "gender": "male",
         "genre": "soccer",
         "size": {
@@ -1425,7 +1425,7 @@
         ]
     },
     {
-        "name": "クリスティアーノ・ロナウド（Cristiano Ronaldo）",
+        "name": "Cristiano Ronaldo",
         "gender": "male",
         "genre": "soccer",
         "size": {
@@ -1440,7 +1440,7 @@
         ]
     },
     {
-        "name": "ロマーリオ（Romário）",
+        "name": "Romário",
         "gender": "male",
         "genre": "soccer",
         "size": {
@@ -1455,7 +1455,7 @@
         ]
     },
     {
-        "name": "カルロス・アルベルト・バルデラマ・パラシオ（Carlos Alberto Valderrama Palacio）",
+        "name": "Carlos Alberto Valderrama Palacio",
         "gender": "male",
         "genre": "soccer",
         "size": {
@@ -1545,7 +1545,7 @@
         ]
     },
     {
-        "name": "ノバク・ジョコビッチ（Novak Djokovic）",
+        "name": "Novak Djokovic",
         "gender": "male",
         "genre": "tennis",
         "size": {
@@ -1560,7 +1560,7 @@
         ]
     },
     {
-        "name": "ロジャー・フェデラー（Roger Federer）",
+        "name": "Roger Federer",
         "gender": "male",
         "genre": "tennis",
         "size": {
@@ -1575,7 +1575,7 @@
         ]
     },
     {
-        "name": "ラファエル・ナダル（Rafael Nadal）",
+        "name": "Rafael Nadal",
         "gender": "male",
         "genre": "tennis",
         "size": {
@@ -1590,7 +1590,7 @@
         ]
     },
     {
-        "name": "アンディ・マリー（Andy Murray）",
+        "name": "Andy Murray",
         "gender": "male",
         "genre": "tennis",
         "size": {
@@ -1605,7 +1605,7 @@
         ]
     },
     {
-        "name": "ジョン・マッケンロー（John McEnroe）",
+        "name": "John McEnroe",
         "gender": "male",
         "genre": "tennis",
         "size": {
@@ -1620,7 +1620,7 @@
         ]
     },
     {
-        "name": "シモナ・ハレプ（Simona Halep）",
+        "name": "Simona Halep",
         "gender": "female",
         "genre": "tennis",
         "size": {
@@ -1630,12 +1630,12 @@
         "ref": [
             {
                 "url" : "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A2%E3%83%8A%E3%83%BB%E3%83%8F%E3%83%AC%E3%83%97",
-                "date" : ""
+                "date" : "2025/06/08"
             }
         ]
     },
     {
-        "name": "トム・ブレイディ（Tom Brady）",
+        "name": "Tom Brady",
         "gender": "male",
         "genre": "American football",
         "size": {
@@ -1645,12 +1645,12 @@
         "ref": [
             {
                 "url" : "https://en.wikipedia.org/wiki/Tom_Brady",
-                "date" : ""
+                "date" : "2025/06/08"
             }
         ]
     },
     {
-        "name": "ペイトン・マニング（Peyton Manning）",
+        "name": "Peyton Manning",
         "gender": "male",
         "genre": "American football",
         "size": {
@@ -1660,12 +1660,12 @@
         "ref": [
             {
                 "url" : "https://en.wikipedia.org/wiki/Peyton_Manning",
-                "date" : ""
+                "date" : "2025/06/08"
             }
         ]
     },
     {
-        "name": "ジョー・モンタナ（Joe Montana）",
+        "name": "Joe Montana",
         "gender": "male",
         "genre": "American football",
         "size": {
@@ -1675,12 +1675,12 @@
         "ref": [
             {
                 "url" : "https://en.wikipedia.org/wiki/Joe_Montana",
-                "date" : ""
+                "date" : "2025/06/08"
             }
         ]
     },
     {
-        "name": "エメリヤーエンコ・ヒョードル（Fedor Emelianenko）",
+        "name": "Fedor Emelianenko",
         "gender": "male",
         "genre": "mma",
         "size": {
@@ -1695,7 +1695,7 @@
         ]
     },
     {
-        "name": "ケイン・ヴェラスケス（Cain Velasquez）",
+        "name": "Cain Velasquez",
         "gender": "male",
         "genre": "mma",
         "size": {
@@ -1710,7 +1710,7 @@
         ]
     },
     {
-        "name": "アンデウソン・シウバ（Anderson Silva）",
+        "name": "Anderson Silva",
         "gender": "male",
         "genre": "mma",
         "size": {
@@ -1725,7 +1725,7 @@
         ]
     },
     {
-        "name": "ジョルジュ・サンピエール（Georges St-Pierre）",
+        "name": "Georges St-Pierre",
         "gender": "male",
         "genre": "mma",
         "size": {
@@ -1740,7 +1740,7 @@
         ]
     },
     {
-        "name": "コナー・マクレガー（Conor McGregor）",
+        "name": "Conor McGregor",
         "gender": "male",
         "genre": "mma",
         "size": {
@@ -1755,7 +1755,7 @@
         ]
     },
     {
-        "name": "ジョン・ジョーンズ（Jon Jones）",
+        "name": "Jon Jones",
         "gender": "male",
         "genre": "mma",
         "size": {
@@ -1770,7 +1770,7 @@
         ]
     },
     {
-        "name": "ジョゼ・アルド（José Aldo）",
+        "name": "José Aldo",
         "gender": "male",
         "genre": "mma",
         "size": {
