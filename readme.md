@@ -10,6 +10,7 @@ Visualize height and weight data of various athletes across different sports usi
 - Filter data by **gender** (male, female) and **sport genre**.
 - **Search function** for finding athletes by name (supports partial matching).
 - Display detailed athlete information, including references to external sources (e.g., Wikipedia).
+- **Update history display** to show recent changes and data additions.
 - Data is stored in `data.json`. 
 
 ## Technologies Used
