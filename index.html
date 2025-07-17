@@ -29,23 +29,28 @@
 		</div>
 	</div>
     <div class="controls">
-        Unit:
-        metric <input type="radio" name="unit" value="metric" checked>
-        imperial <input type="radio" name="unit" value="imperial">
-		<br>
-        Gender:
-        male <input type="checkbox" id="male" checked>
-        female <input type="checkbox" id="female" checked>
-        <br>
-        Genre:
-        <select id="genre-select">
-            <option value="all">all</option>
-        </select>
-        <br><br>
-		Search Name:&nbsp;
-		<input type="text" id="search-box">&nbsp;
-		<button id="search-btn">Search</button>
-    </div>
+	    <span>Unit:</span>
+	    metric <input type="radio" name="unit" value="metric" checked>
+	    imperial <input type="radio" name="unit" value="imperial">
+	    &nbsp;&nbsp;&nbsp;&nbsp;
+	    <span>Gender:</span>
+	    male <input type="checkbox" id="male" checked>
+	    female <input type="checkbox" id="female" checked>
+	    &nbsp;&nbsp;&nbsp;&nbsp;
+	    <span>Genre:</span>
+	    <select id="genre-select">
+	        <option value="all">all</option>
+	    </select>
+
+	    <div style="margin-top: 0.3em;">
+	        <span>Search Name:&nbsp;</span>
+	        <input type="text" id="search-box">
+	        <button id="search-btn">Search</button>
+	    </div>
+	</div>
+    <p>
+        Hover over a point to display data below the scatter diagram.
+    </p>
     <div id="chart"></div>
     <div id="info"></div>
 

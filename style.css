@@ -20,7 +20,7 @@ footer {
 
 #chart {
   width: 100%;
-  max-width: 650px;
+  max-width: 600px;
   height: auto;
   aspect-ratio: 1 / 1;
   border: 1px solid black;
@@ -80,4 +80,13 @@ footer {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.controls {
+    font-size: 0.95em;
+    margin-bottom: 0.5em;
+}
+
+#search-box {
+    width: 150px;
 }
