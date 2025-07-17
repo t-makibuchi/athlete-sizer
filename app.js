@@ -186,7 +186,7 @@ function updateChart() {
             return `<strong>${person.name}</strong><br>Gender: ${person.gender}, Genre: ${person.genre}, ${sizeInfo}${refInfo}`;
         }).join("<br><br>");
     
-        d3.select("#info").html(infoText);
+        showInfo(infoText);
     
         // 前回強調表示された点を元に戻す
         if (highlightedPoint) {
@@ -321,4 +321,10 @@ function loadChartData() {
     dataset = data;
     updateChart();
   });
+}
+
+function showInfo(text) {
+  const infoBox = document.getElementById("info");
+  infoBox.innerHTML = text;
+  infoBox.style.backgroundColor = "#fffbe6"; 
 }

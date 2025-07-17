@@ -32,27 +32,27 @@
 	    <span>Unit:</span>
 	    metric <input type="radio" name="unit" value="metric" checked>
 	    imperial <input type="radio" name="unit" value="imperial">
-	    &nbsp;&nbsp;&nbsp;&nbsp;
+	    <br>
 	    <span>Gender:</span>
 	    male <input type="checkbox" id="male" checked>
 	    female <input type="checkbox" id="female" checked>
-	    &nbsp;&nbsp;&nbsp;&nbsp;
+	    <br>
 	    <span>Genre:</span>
 	    <select id="genre-select">
 	        <option value="all">all</option>
 	    </select>
-
-	    <div style="margin-top: 0.3em;">
+		<br>
+	    <div style="margin-top: 1em;">
 	        <span>Search Name:&nbsp;</span>
 	        <input type="text" id="search-box">
 	        <button id="search-btn">Search</button>
 	    </div>
 	</div>
-    <p>
-        Hover over a point to display data below the scatter diagram.
-    </p>
+	<br>	
+    <div id="info" class="info-box">
+		<p style="color: gray; margin: 0;">Athlete info will appear here when you hover a point.</p>
+	</div>
     <div id="chart"></div>
-    <div id="info"></div>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="app.js"></script>

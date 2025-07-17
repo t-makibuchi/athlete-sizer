@@ -20,15 +20,10 @@ footer {
 
 #chart {
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   height: auto;
   aspect-ratio: 1 / 1;
   border: 1px solid black;
-}
-
-#info {
-  margin-top: 20px;
-  white-space: pre-wrap;
 }
 
 .controls {
@@ -89,4 +84,22 @@ footer {
 
 #search-box {
     width: 150px;
+}
+
+.info-box {
+  min-height: 90px;
+  max-height: none;
+  padding: 0.5em 1em;
+  margin-bottom: 0.8em;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.info-box.highlight {
+  background-color: #fffbe6;
 }
